@@ -15,12 +15,13 @@
                     <div class="{% unless forloop.last %}mb-4{% endunless %}">
 
                         <div style="font-size:1.05rem; font-weight:600;">
-                            {% if item.link %}
-                                <a href="{{ item.link }}" target="_blank">
-                                    {{ item.title }}
+                            {{ item.title }}
+
+                            {% if item.arxiv %}
+                                <a href="{{ item.arxiv }}" target="_blank"
+                                   style="font-size:0.9rem; margin-left:8px;">
+                                    [arXiv]
                                 </a>
-                            {% else %}
-                                {{ item.title }}
                             {% endif %}
                         </div>
 
