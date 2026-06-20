@@ -1,0 +1,19 @@
+<div class="row mt-3">
+    <div class="col">
+        <div class="card border-0 shadow-sm bg-white">
+            <div class="card-body p-4">
+
+                <h5>Preprints & Submitted Manuscripts</h5>
+
+                {% for item in site.data.profile.preprints %}
+                <p>
+                    <strong>{{ item.title }}</strong><br>
+                    {{ item.authors }}<br>
+                    <em>{{ item.status }}</em>
+                </p>
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+</div>
