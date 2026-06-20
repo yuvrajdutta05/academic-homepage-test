@@ -94,7 +94,7 @@ manuscripts:
   - title: "Bivariate Inverse Gaussian Degradation Processes with Shared Random Effects and an Application to Fatigue Cracks"
     authors: "Yuvraj Dutta, Sandip Barui, Debanjan Mitra, Narayanaswamy Balakrishnan"
     status: "Submitted to Applied Stochastic Models in Business and Industry"
-    link: "https://arxiv.org/pdf/2606.04546"
+    arxiv: "https://arxiv.org/pdf/2606.04546"
 
   - title: "Brownian Motions with Drift Conditioned to Have Restricted L2-Norm"
     authors: "Frank Aurzada, Yuvraj Dutta, Max Wiegand"
