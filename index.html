@@ -12,17 +12,12 @@ navbar_title: Home
 
         {% include widgets/profile_card_bio_only.html %}
 
-        <!-- Debugging widgets -->
-        {% include widgets/debug_repo_name.html %}
-        {% include widgets/debug_url.html %}
+        
 
-        {% include widgets/research_card.html %}
 
         {% include widgets/experience_card.html %}
 
-        {% include widgets/preprint_card.html %}
-
-        {% include widgets/awards_card.html %}
+ 
 
         {% if site.data.display.homepage.show_news %}
         {% assign count_news = site.news | size %}

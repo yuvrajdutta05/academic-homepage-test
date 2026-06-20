@@ -2,13 +2,14 @@
     <div class="col">
         <div class="card border-0 shadow-sm bg-white">
             <div class="card-body p-4">
+
                 <h5>Research Interests</h5>
 
-                <ul>
                 {% for item in site.data.profile.research_interests %}
-                    <li>{{ item }}</li>
+                    <span class="badge badge-light border p-2 m-1">
+                        {{ item }}
+                    </span>
                 {% endfor %}
-                </ul>
 
             </div>
         </div>
