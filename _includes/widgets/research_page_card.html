@@ -1,9 +1,11 @@
 <div class="card border-0 shadow-sm bg-white">
     <div class="card-body">
 
-        <pre>
-{{ site.data.research | jsonify }}
-        </pre>
+        <h3>Research</h3>
+
+        {% for item in site.data.research.ongoing %}
+            <p>{{ item.title }}</p>
+        {% endfor %}
 
     </div>
 </div>
