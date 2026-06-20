@@ -1,10 +1,15 @@
 <div class="card border-0 shadow-sm bg-white">
     <div class="card-body">
 
-        <h3>Research</h3>
+        <h4>Ongoing Research</h4>
 
         {% for item in site.data.research.ongoing %}
-            <p>{{ item.title }}</p>
+            <div>
+                <strong>{{ item.title }}</strong><br>
+                {{ item.supervisor }}<br>
+                {{ item.description }}
+                <hr>
+            </div>
         {% endfor %}
 
     </div>
