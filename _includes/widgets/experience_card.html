@@ -9,12 +9,13 @@
                             <h5 class="p-3 mb-0 border-bottom border-gray">
                                 <i class="fas fa-university"></i> Education
                             </h5>
+                            <div class="px-3 pt-3 pb-2">
 
                             <div class="px-3 py-2">
                             <ul class="list-unstyled mb-1">
                                 {% for item in site.data.profile.education %}
                                 <li class="media mb-1">
-                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 30px;" class="mr-1 mt-1">
+                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 32px;" class="mr-1 mt-1">
                                     <div class="media-body">
 
                                         <div class="d-flex">
@@ -31,6 +32,7 @@
                                     </div>
                                 </li>
                                 {% endfor %}
+                                </div>
                                 </div>
                             </ul>
                         </div>
