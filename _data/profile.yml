@@ -86,7 +86,7 @@ awards:
 
 manuscripts:
 
-  - title: "Entropic Matching for Filtering and Smoothing of Stochastic Differential Equations"
+  - title: "Projection-Based Filtering and Smoothing of Diffusion Processes"
     authors: "Yannick Eich, Yuvraj Dutta, Heinz Koeppl"
     status: "Submitted to a peer-reviewed conference"
     link:
