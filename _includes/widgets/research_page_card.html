@@ -88,6 +88,65 @@
 
             <hr class="my-5">
 
+
+                        
+            <hr class="my-4">
+
+<!-- Talks & Presentations -->
+
+<h5 class="mb-3 border-bottom pb-2">
+    Talks & Presentations
+</h5>
+
+{% for item in site.data.research.talks %}
+
+<div class="media py-3 {% unless forloop.first %}border-top border-gray{% endunless %}">
+
+    <div class="mr-4 text-muted" style="min-width:70px;">
+        {{ item.year }}
+    </div>
+
+    <div class="media-body">
+
+        <div style="font-size:1.05rem;font-weight:600;">
+            {{ item.title }}
+        </div>
+
+        <div class="text-muted">
+            {{ item.venue }}
+            {% if item.date %}
+            • {{ item.date }}
+            {% endif %}
+        </div>
+
+        <div class="mt-2">
+            {{ item.description }}
+        </div>
+
+        <div class="mt-2">
+
+            {% if item.abstract %}
+            <a href="{{ item.abstract }}" target="_blank">
+                [Abstract]
+            </a>
+            {% endif %}
+
+            {% if item.slides %}
+            <a href="{{ item.slides }}" target="_blank" style="margin-left:8px;">
+                [Slides]
+            </a>
+            {% endif %}
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endfor %}
+
+            
+
             <h5 class="mb-4">Selected Coursework Projects</h5>
 
             {% for item in site.data.research.coursework %}
