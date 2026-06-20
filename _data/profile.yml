@@ -96,7 +96,7 @@ manuscripts:
     status: "Submitted to Applied Stochastic Models in Business and Industry"
     arxiv: "https://arxiv.org/pdf/2606.04546"
 
-  - title: "Brownian Motions with Drift Conditioned to Have Restricted L2-Norm"
+  - title: "Brownian Motions with Drift Conditioned to Have Restricted L<sup>2</sup>-Norm"
     authors: "Frank Aurzada, Yuvraj Dutta, Max Wiegand"
     status: "Manuscript in preparation"
     link:
