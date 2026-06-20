@@ -1,79 +1,82 @@
 ongoing:
 
-  - year: 2026
-    title: "Asymptotic Fluctuations in Cubic Interaction Spin Models"
+  - year: 2026 
+  
+    title: "(Master's Dissertation) Asymptotic Fluctuations in Cubic Interaction Spin Models"
     supervisor: "Prof. Sumit Mukherjee (Columbia University)"
     description: >
       Derived concentration inequalities for linear functionals in cubic interaction spin models,
-      including edge-triangle ERGMs using Chatterjee's exchangeable-pair framework and Glauber
-      dynamics. Currently investigating CLTs for the global magnetization under broad structural
-      assumptions on the interaction tensor.
+      including edge-triangle ERGMs using exchangeable-pair methods and Glauber dynamics.
+      Currently investigating central limit theorems for global magnetization under broad
+      structural assumptions on the interaction tensor.
 
   - year: 2026
-    title: "Conditional Limit Theorems for Drifted Brownian Motion under Restricted L²-Norm"
+    title: "Conditional Limit Theorem for Brownian Motion with Drift under Restricted L²-Norm"
     supervisor: "Prof. Frank Aurzada (TU Darmstadt)"
     description: >
-      Studying Brownian motion with drift conditioned to have an atypically small L² norm over a
-      long time horizon, extending recent rare-event conditioning results. A manuscript describing
-      these results is currently in preparation.
+      Studying Brownian motion with drift conditioned to have atypically small L² norm over
+      long time horizons and investigating associated conditional limit theorem alon with the asymptotics of small deviation probabilities of corresponding quadratic functionals.
 
 
 completed:
 
   - year: 2026
     title: "Projection-Based Filtering and Smoothing of Diffusion Processes"
-    supervisor: "Prof. Heinz Koeppl (TU Darmstadt)"
+    authors: "Yannick Eich, Yuvraj Dutta, Heinz Koeppl"
     description: >
-      Developed projection-based filtering and smoothing methods for diffusion processes using
-      Gaussian, lognormal and independent gamma approximation families.
+      Developed projection-based filtering and smoothing methods for diffusion processes under non-negativity constraints.
 
   - year: 2026
     title: "Bivariate Inverse Gaussian Degradation Processes with Shared Random Effects and an Application to Fatigue Cracks"
-    supervisor: "Prof. Sandip Barui, Prof. Debanjan Mitra, Prof. Narayanaswamy Balakrishnan"
+    authors: "Yuvraj Dutta, Sandip Barui, Debanjan Mitra, Narayanaswamy Balakrishnan"
     description: >
-      Developed a bivariate degradation framework based on inverse Gaussian processes with shared
-      random effects and applied the methodology to fatigue crack data.
+      Developed a bivariate degradation framework based on inverse Gaussian processes with
+      shared random effects and applied the methodology to fatigue crack data.
     link: "PUT_ARXIV_LINK_HERE"
     link_text: "[arXiv]"
 
-  - year: 2025
-    title: "Asymptotics of the Partition Function in the Ashkin–Teller Model"
-    description: >
-      Studied asymptotic properties of the partition function in the Ashkin–Teller model arising
-      in statistical physics.
-    link: "PUT_GOOGLE_DRIVE_LINK_HERE"
-    link_text: "[Notes]"
+ #- year: 2025
+ #  title: "Asymptotics of the Partition Function in the Ashkin–Teller Model"
+ #  authors: "Yuvraj Dutta"
+ #  description: >
+ #    Studied asymptotic properties of the partition function in the Ashkin–Teller model
+ #    arising in statistical physics.
+ #  link: "PUT_GOOGLE_DRIVE_LINK_HERE"
+ #  link_text: "[Notes]"
 
 
 coursework:
 
   - year: 2026
     title: "Resampling-Based Inference for Log-Linear Models"
-    date: "May 2026"
+    description: >
+      Developed bootstrap-based methods for inference and uncertainty quantification
+      in log-linear models.
     link: "REPORT_LINK"
-    link_text: "[Report]"
 
   - year: 2026
     title: "Studying Gameplay Factors via a Confounded Factorial Experiment"
-    date: "Apr 2026"
+    description: >
+      Investigated gameplay factors using confounded factorial experimental designs.
     link: "REPORT_LINK"
-    link_text: "[Report]"
-
 
   - year: 2026
     title: "Bootstrap-Based Model Selection in Binary GLMs"
-    date: "Mar 2026"
+    description: >
+      Studied model selection procedures in binary-response generalized linear models
+      using bootstrap methodologies.
     link: "REPORT_LINK"
-    link_text: "[Report]"
 
   - year: 2025
     title: "Statistical Depth and Robust Multivariate Inference"
-    date: "Nov 2025"
+    description: >
+      Investigated statistical depth functions and their applications to robust
+      multivariate inference.
     link: "REPORT_LINK"
-    link_text: "[Report]"
 
   - year: 2025
     title: "Model Diagnostics for Binary-Response GLMs: An NBA Case Study"
-    date: "Nov 2025"
+    description: >
+      Conducted a detailed diagnostic analysis of binary-response generalized linear
+      models using NBA game outcomes.
     link: "REPORT_LINK"
-    link_text: "[Report]"
