@@ -1,12 +1,9 @@
 <div class="card border-0 shadow-sm bg-white">
     <div class="card-body">
 
-        <h3>TEST</h3>
-
-        <p>
-            Ongoing count:
-            {{ site.data.research.ongoing.size }}
-        </p>
+        <pre>
+{{ site.data.research | jsonify }}
+        </pre>
 
     </div>
 </div>
