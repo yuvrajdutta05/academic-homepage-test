@@ -1,16 +1,133 @@
 <div class="card border-0 shadow-sm bg-white">
-    <div class="card-body">
 
-        <h4>Ongoing Research</h4>
+    <div class="card-body p-0">
 
-        {% for item in site.data.research.ongoing %}
-            <div>
-                <strong>{{ item.title }}</strong><br>
-                {{ item.supervisor }}<br>
-                {{ item.description }}
-                <hr>
+        <h4 class="p-3 mb-0 border-bottom border-gray">
+            Research
+        </h4>
+
+        <div class="px-4 py-3">
+
+            <h5 class="mb-4">Ongoing Research</h5>
+
+            {% for item in site.data.research.ongoing %}
+
+            <div class="row mb-4">
+
+                <div class="col-md-1 text-muted">
+                    {{ item.year }}
+                </div>
+
+                <div class="col-md-11">
+
+                    <div style="font-size:1.05rem;font-weight:600;">
+                        {{ item.title }}
+                    </div>
+
+                    <div class="text-muted">
+                        <em>Supervisor: {{ item.supervisor }}</em>
+                    </div>
+
+                    <div class="mt-2">
+                        {{ item.description }}
+                    </div>
+
+                </div>
+
             </div>
-        {% endfor %}
+
+            {% unless forloop.last %}
+            <hr>
+            {% endunless %}
+
+            {% endfor %}
+
+            <hr class="my-5">
+
+            <h5 class="mb-4">Completed Research</h5>
+
+            {% for item in site.data.research.completed %}
+
+            <div class="row mb-4">
+
+                <div class="col-md-1 text-muted">
+                    {{ item.year }}
+                </div>
+
+                <div class="col-md-11">
+
+                    <div style="font-size:1.05rem;font-weight:600;">
+
+                        {{ item.title }}
+
+                        {% if item.link %}
+                        <a href="{{ item.link }}" target="_blank">
+                            {{ item.link_text }}
+                        </a>
+                        {% endif %}
+
+                    </div>
+
+                    <div class="text-muted">
+                        {{ item.authors }}
+                    </div>
+
+                    <div class="mt-2">
+                        {{ item.description }}
+                    </div>
+
+                </div>
+
+            </div>
+
+            {% unless forloop.last %}
+            <hr>
+            {% endunless %}
+
+            {% endfor %}
+
+            <hr class="my-5">
+
+            <h5 class="mb-4">Selected Coursework Projects</h5>
+
+            {% for item in site.data.research.coursework %}
+
+            <div class="row mb-4">
+
+                <div class="col-md-1 text-muted">
+                    {{ item.year }}
+                </div>
+
+                <div class="col-md-11">
+
+                    <div style="font-size:1.05rem;font-weight:600;">
+
+                        {{ item.title }}
+
+                        {% if item.link %}
+                        <a href="{{ item.link }}" target="_blank">
+                            [Report]
+                        </a>
+                        {% endif %}
+
+                    </div>
+
+                    <div class="mt-2">
+                        {{ item.description }}
+                    </div>
+
+                </div>
+
+            </div>
+
+            {% unless forloop.last %}
+            <hr>
+            {% endunless %}
+
+            {% endfor %}
+
+        </div>
 
     </div>
+
 </div>
