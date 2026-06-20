@@ -76,3 +76,23 @@ coursework:
     description: >
       Investigated model selection and diagnostic techniques for binary-response generalized linear models, including residual, leverage, and influence diagnostics using NBA game outcomes.
     link: "https://drive.google.com/file/d/1gNXKRnLaXmIIWADqOFpRHNX4VqXfEEZ1/view?usp=sharing"
+
+
+
+
+
+
+talks:
+
+  - year: 2025
+    title: "Tracking the Hidden States : Bayesian Filtering & Smoothing"
+    venue: "D. Basu Memorial Gold Medal Award Seminar, Indian Statistical Institute Kolkata"
+    date: "2025"
+    description: >
+      Invited to present this seminar as one of the top-ranked students in the B.Stat.
+      graduating cohort. The talk ntroduced Bayesian filtering and smoothing for stochastic dynamical systems,
+      discussing state-space models, stochastic differential equations, and modern
+      approximate inference techniques for recovering hidden states from noisy observations.
+
+    abstract: "https://drive.google.com/file/d/1J2RLSg_eEQW5te2Y8k0SnOer1UeIgOPG/view?usp=sharing"
+    slides: "https://drive.google.com/file/d/19lzIUasdzWRQUkE6hUn-d4_tuApWcY__/view?usp=sharing"
