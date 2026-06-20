@@ -1,19 +1,45 @@
 <div class="row mt-3">
     <div class="col">
         <div class="card border-0 shadow-sm bg-white">
-            <div class="card-body p-4">
 
-                <h5>Preprints & Submitted Manuscripts</h5>
+            <div class="card-body p-0">
 
-                {% for item in site.data.profile.preprints %}
-                <p>
-                    <strong>{{ item.title }}</strong><br>
-                    {{ item.authors }}<br>
-                    <em>{{ item.status }}</em>
-                </p>
-                {% endfor %}
+                <h4 class="p-3 mb-0 border-bottom border-gray">
+                    Manuscripts
+                </h4>
+
+                <div class="px-4 py-3">
+
+                    {% for item in site.data.profile.manuscripts %}
+
+                    <div class="{% unless forloop.last %}mb-4{% endunless %}">
+
+                        <div style="font-size:1.05rem; font-weight:600;">
+                            {% if item.link %}
+                                <a href="{{ item.link }}" target="_blank">
+                                    {{ item.title }}
+                                </a>
+                            {% else %}
+                                {{ item.title }}
+                            {% endif %}
+                        </div>
+
+                        <div class="text-muted small">
+                            {{ item.authors }}
+                        </div>
+
+                        <div class="mt-1">
+                            <em>{{ item.status }}</em>
+                        </div>
+
+                    </div>
+
+                    {% endfor %}
+
+                </div>
 
             </div>
+
         </div>
     </div>
 </div>
