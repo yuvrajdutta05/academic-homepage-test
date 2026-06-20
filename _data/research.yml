@@ -1,0 +1,79 @@
+ongoing:
+
+  - year: 2026
+    title: "Asymptotic Fluctuations in Cubic Interaction Spin Models"
+    supervisor: "Prof. Sumit Mukherjee (Columbia University)"
+    description: >
+      Derived concentration inequalities for linear functionals in cubic interaction spin models,
+      including edge-triangle ERGMs using Chatterjee's exchangeable-pair framework and Glauber
+      dynamics. Currently investigating CLTs for the global magnetization under broad structural
+      assumptions on the interaction tensor.
+
+  - year: 2026
+    title: "Conditional Limit Theorems for Drifted Brownian Motion under Restricted L²-Norm"
+    supervisor: "Prof. Frank Aurzada (TU Darmstadt)"
+    description: >
+      Studying Brownian motion with drift conditioned to have an atypically small L² norm over a
+      long time horizon, extending recent rare-event conditioning results. A manuscript describing
+      these results is currently in preparation.
+
+
+completed:
+
+  - year: 2026
+    title: "Projection-Based Filtering and Smoothing of Diffusion Processes"
+    supervisor: "Prof. Heinz Koeppl (TU Darmstadt)"
+    description: >
+      Developed projection-based filtering and smoothing methods for diffusion processes using
+      Gaussian, lognormal and independent gamma approximation families.
+
+  - year: 2026
+    title: "Bivariate Inverse Gaussian Degradation Processes with Shared Random Effects and an Application to Fatigue Cracks"
+    supervisor: "Prof. Sandip Barui, Prof. Debanjan Mitra, Prof. Narayanaswamy Balakrishnan"
+    description: >
+      Developed a bivariate degradation framework based on inverse Gaussian processes with shared
+      random effects and applied the methodology to fatigue crack data.
+    link: "PUT_ARXIV_LINK_HERE"
+    link_text: "[arXiv]"
+
+  - year: 2025
+    title: "Asymptotics of the Partition Function in the Ashkin–Teller Model"
+    description: >
+      Studied asymptotic properties of the partition function in the Ashkin–Teller model arising
+      in statistical physics.
+    link: "PUT_GOOGLE_DRIVE_LINK_HERE"
+    link_text: "[Notes]"
+
+
+coursework:
+
+  - year: 2026
+    title: "Resampling-Based Inference for Log-Linear Models"
+    date: "May 2026"
+    link: "REPORT_LINK"
+    link_text: "[Report]"
+
+  - year: 2026
+    title: "Studying Gameplay Factors via a Confounded Factorial Experiment"
+    date: "Apr 2026"
+    link: "REPORT_LINK"
+    link_text: "[Report]"
+
+
+  - year: 2026
+    title: "Bootstrap-Based Model Selection in Binary GLMs"
+    date: "Mar 2026"
+    link: "REPORT_LINK"
+    link_text: "[Report]"
+
+  - year: 2025
+    title: "Statistical Depth and Robust Multivariate Inference"
+    date: "Nov 2025"
+    link: "REPORT_LINK"
+    link_text: "[Report]"
+
+  - year: 2025
+    title: "Model Diagnostics for Binary-Response GLMs: An NBA Case Study"
+    date: "Nov 2025"
+    link: "REPORT_LINK"
+    link_text: "[Report]"
