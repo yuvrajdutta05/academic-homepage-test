@@ -91,3 +91,61 @@ div.lazy {
 .email-text {
     font-family: Source Code Pro, monospace;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* ---------- Dark Theme ---------- */
+
+body.dark-mode {
+    background-color: #121212 !important;
+    color: #e6e6e6;
+}
+
+body.dark-mode .bg-light {
+    background-color: #121212 !important;
+}
+
+body.dark-mode .card,
+body.dark-mode .bg-white {
+    background-color: #1e1e1e !important;
+    color: #e6e6e6 !important;
+}
+
+body.dark-mode .navbar {
+    background-color: rgba(25,25,25,0.85) !important;
+}
+
+body.dark-mode .text-muted {
+    color: #b0b0b0 !important;
+}
+
+body.dark-mode .border-bottom,
+body.dark-mode .border-top,
+body.dark-mode .border-gray {
+    border-color: #444 !important;
+}
+
+body.dark-mode a {
+    color: #8ab4ff;
+}
+
+body.dark-mode .nav-link {
+    color: #e6e6e6 !important;
+}
+
+body.dark-mode .navbar-brand {
+    color: #e6e6e6 !important;
+}
+
+body.dark-mode .btn-outline-secondary {
+    color: #ddd;
+    border-color: #666;
+}
