@@ -24,12 +24,28 @@ short_bio_text_justify: false
 short_bio: >-
 short_bio: >-
   <p>
-  I am a final-year M.Stat. student at the Indian Statistical Institute, Kolkata, specializing in Probability. My master's dissertation, supervised by Prof. Sumit Mukherjee (Columbia University), focuses on asymptotic fluctuations in cubic interaction spin models. I am also working with Prof. Frank Aurzada (Technische Universität Darmstadt) on conditional limit theorems for Brownian motion with drift under pathwise norm constraints.
+  I am a final-year M.Stat. student at the
+  <a href="https://www.isical.ac.in/" target="_blank">Indian Statistical Institute, Kolkata</a>,
+  specializing in Probability. My master's dissertation, supervised by
+  <a href="https://sites.stat.columbia.edu/sumitm/" target="_blank">Prof. Sumit Mukherjee</a>
+  (Columbia University), focuses on asymptotic fluctuations in cubic interaction spin models.
+  I am also working with
+  <a href="https://www2.mathematik.tu-darmstadt.de/~aurzada/" target="_blank">Prof. Frank Aurzada</a>
+  (TU Darmstadt)
+  on conditional limit theorems for Brownian motion with drift under pathwise norm constraints.
   </p>
 
   <p>
-  I have had the opportunity to undertake a research internship with the Probability Group in the Department of Mathematics at TU Darmstadt (on-site, Summer 2026), under the supervision of Dr. Frank Aurzada. Previously, I visited the Self-Organizing Systems Lab at TU Darmstadt (on-site, Summer 2025), where I worked on approximate Bayesian filtering and smoothing for stochastic differential equations.
+  I have had the opportunity to undertake a research internship with the
+  <a href="https://www.mathematik.tu-darmstadt.de/stochastik/startseite_agsto/index.de.jsp" target="_blank">Probability Group</a>
+  in the Department of Mathematics at TU Darmstadt
+  (on-site, Summer 2026), under the supervision of Dr. Frank Aurzada.
+  Previously, I visited the
+  <a href="https://www.bcs.tu-darmstadt.de/welcome/index.en.jsp" target="_blank">Self-Organizing Systems Lab</a>
+  at TU Darmstadt (on-site, Summer 2025), where I worked on approximate Bayesian filtering and smoothing for stochastic differential equations.
   </p>
+
+
 
 
 portrait_url: /assets/images/photos/image.png
@@ -97,7 +113,7 @@ manuscripts:
     status: "Submitted to Applied Stochastic Models in Business and Industry"
     arxiv: "https://arxiv.org/pdf/2606.04546"
 
-  - title: "Brownian Motions with Drift Conditioned to Have Restricted L<sup>2</sup>-Norm"
+  - title: "Brownian Motion with Drift Conditioned to Have Restricted L<sup>2</sup>-Norm"
     authors: "Frank Aurzada, Yuvraj Dutta, Max Wiegand"
     status: "Manuscript in preparation"
     link:
