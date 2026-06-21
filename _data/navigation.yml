@@ -5,7 +5,7 @@ pages:
   url: /
 - name: Research
   url: /research/
-- name: Blog
-  url: /blog
+- name: CV
+  url: /cv/
 - name: Showcase
   url: /showcase
